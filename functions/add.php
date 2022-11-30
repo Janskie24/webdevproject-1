@@ -7,7 +7,6 @@
     <title>Add Data</title>
 </head>
 <body>
-    <div></div>
     <?php
         include_once("../dbconnection/mysqlconfig_connection.php");
 
