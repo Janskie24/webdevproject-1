@@ -3,7 +3,7 @@
 
     $id = $_GET['id'];
 
-    mysqli_query($dbc, "DELETE FROM TBLSUBJECTS WHERE SUBJECT_id = '$id' ");
+    mysqli_query($dbc, "DELETE FROM TBLSUBJECTS WHERE SUBJECT_ID = '$id' ");
 
     header("Location: ../index.php");
 ?>
