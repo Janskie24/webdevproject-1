@@ -9,7 +9,6 @@
 <body>
     <?php
         include_once("../dbconnection/mysqlconfig_connection.php");
-
         if(isset($_POST['Submit'])) {
             $code = $_POST['code'];
             $author = $_POST['author'];
